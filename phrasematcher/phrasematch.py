@@ -34,8 +34,7 @@ def list_to_df(input):
     return dfbefore, dfafter
 
 input1 = getData("input1.txt")
-# input2 = getData("input2.txt")
-input2 = ['god']
+input2 = getData("input2.txt")
 
 api = Datamuse()
 

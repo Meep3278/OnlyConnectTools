@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 from __future__ import print_function
 from pydub import AudioSegment
 import os
-import youtube_dl
+import yt_dlp as youtube_dl
 from moviepy.editor import *
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
